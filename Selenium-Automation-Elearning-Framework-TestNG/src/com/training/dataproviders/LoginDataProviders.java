@@ -32,8 +32,9 @@ public class LoginDataProviders {
 	
 	@DataProvider(name = "excel-inputs")
 	public Object[][] getExcelData(){
-		String fileName ="C:/Users/Naveen/Desktop/Testing.xlsx"; 
-		return new ApachePOIExcelRead().getExcelContent(fileName); 
+		String fileName ="C:\\Users\\PratibhaAgrawal\\Desktop\\test-selenium.xlsx";
+		String SheetName= "Sheet1";
+		return new ApachePOIExcelRead().getExcelContent(fileName, SheetName); 
 	}
 	
 	@DataProvider(name = "xls-inputs")

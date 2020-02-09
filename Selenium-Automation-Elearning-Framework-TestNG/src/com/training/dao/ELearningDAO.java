@@ -28,7 +28,7 @@ public class ELearningDAO {
 	}
 	
 	public List<LoginBean> getLogins(){
-		String sql = properties.getProperty("get.logins"); 
+		String sql = properties.getProperty("get.login1"); 
 		
 		GetConnection gc  = new GetConnection(); 
 		List<LoginBean> list = null;

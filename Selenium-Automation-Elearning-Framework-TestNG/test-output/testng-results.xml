@@ -2,60 +2,30 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Loggin is successful]]>
-    </line>
-    <line>
-      <![CDATA[Group by list contains all required fields]]>
-    </line>
-    <line>
-      <![CDATA[Group by list contains all required fields]]>
-    </line>
-    <line>
-      <![CDATA[Group by list contains all required fields]]>
-    </line>
-    <line>
-      <![CDATA[Group by list contains all required fields]]>
-    </line>
-    <line>
-      <![CDATA[Weekly order screenshot captured has been verified]]>
+      <![CDATA[Products marked with *** are not available]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25956" started-at="2020-01-30T14:21:56 IST" finished-at="2020-01-30T14:22:22 IST">
+  <suite name="Default suite" duration-ms="24484" started-at="2020-02-09T13:31:53 IST" finished-at="2020-02-09T13:32:17 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25956" started-at="2020-01-30T14:21:56 IST" finished-at="2020-01-30T14:22:22 IST">
-      <class name="com.training.sanity.tests.Admin_Report_Sales_FilterByOrder">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Admin_Report_Sales_FilterByOrder@3d99d22e]" name="setUpBeforeClass" is-config="true" duration-ms="13515" started-at="2020-01-30T14:21:56 IST" finished-at="2020-01-30T14:22:09 IST">
+    <test name="Default test" duration-ms="24484" started-at="2020-02-09T13:31:53 IST" finished-at="2020-02-09T13:32:17 IST">
+      <class name="com.training.sanity.tests.RTTC_054_M_Admin_PlaceOrderForCustomer">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_054_M_Admin_PlaceOrderForCustomer@7d0587f1]" name="setUpBeforeClass" is-config="true" duration-ms="12586" started-at="2020-02-09T13:31:53 IST" finished-at="2020-02-09T13:32:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="SortOrder()[pri:0, instance:com.training.sanity.tests.Admin_Report_Sales_FilterByOrder@3d99d22e]" name="SortOrder" duration-ms="10478" started-at="2020-01-30T14:22:09 IST" finished-at="2020-01-30T14:22:20 IST">
+        <test-method status="PASS" signature="PlaceOrder()[pri:0, instance:com.training.sanity.tests.RTTC_054_M_Admin_PlaceOrderForCustomer@7d0587f1]" name="PlaceOrder" duration-ms="10028" started-at="2020-02-09T13:32:05 IST" finished-at="2020-02-09T13:32:16 IST">
           <reporter-output>
             <line>
-              <![CDATA[Loggin is successful]]>
-            </line>
-            <line>
-              <![CDATA[Group by list contains all required fields]]>
-            </line>
-            <line>
-              <![CDATA[Group by list contains all required fields]]>
-            </line>
-            <line>
-              <![CDATA[Group by list contains all required fields]]>
-            </line>
-            <line>
-              <![CDATA[Group by list contains all required fields]]>
-            </line>
-            <line>
-              <![CDATA[Weekly order screenshot captured has been verified]]>
+              <![CDATA[Products marked with *** are not available]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SortOrder -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Admin_Report_Sales_FilterByOrder@3d99d22e]" name="tearDown" is-config="true" duration-ms="1892" started-at="2020-01-30T14:22:20 IST" finished-at="2020-01-30T14:22:22 IST">
+        </test-method> <!-- PlaceOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_054_M_Admin_PlaceOrderForCustomer@7d0587f1]" name="tearDown" is-config="true" duration-ms="1819" started-at="2020-02-09T13:32:16 IST" finished-at="2020-02-09T13:32:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Admin_Report_Sales_FilterByOrder -->
+      </class> <!-- com.training.sanity.tests.RTTC_054_M_Admin_PlaceOrderForCustomer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

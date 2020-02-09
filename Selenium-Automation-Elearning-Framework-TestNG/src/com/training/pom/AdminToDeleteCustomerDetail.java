@@ -40,7 +40,7 @@ public class AdminToDeleteCustomerDetail {
 	@FindBy(xpath="//button[@class='btn btn-danger']")
 	public WebElement deletebutton;
 	
-	@FindBy(xpath="//*[contains(text(),'Success: You have modified customers!')]") //this xpath is capturing X along with the required text
+	@FindBy(xpath="//div[@class='alert alert-success']") //this xpath is capturing X along with the required text
 	public WebElement SuccessMessage;
 	
 	public void sendUserName(String userName) {

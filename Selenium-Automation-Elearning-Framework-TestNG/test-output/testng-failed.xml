@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.Admin_Report_Sales_FilterByOrder">
+      <class name="com.training.sanity.tests.RTTC_053_M_Admin_GenerateInvoice_ChnageStatus">
         <methods>
-          <include name="SortOrder"/>
+          <include name="IncoiceandChangeOrder"/>
           <include name="setUpBeforeClass"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.Admin_Report_Sales_FilterByOrder -->
+      </class> <!-- com.training.sanity.tests.RTTC_053_M_Admin_GenerateInvoice_ChnageStatus -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

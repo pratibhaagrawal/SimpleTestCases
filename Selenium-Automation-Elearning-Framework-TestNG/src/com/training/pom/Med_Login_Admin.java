@@ -5,15 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPOM {
+public class Med_Login_Admin {
 	private WebDriver driver; 
 	
-	public LoginPOM(WebDriver driver) {
+	public Med_Login_Admin(WebDriver driver) {
 		this.driver = driver; 
 		PageFactory.initElements(driver, this);
 	}
 	
-		
 	@FindBy(id="input-username")
 	private WebElement userName; 
 	
